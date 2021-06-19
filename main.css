@@ -3,11 +3,20 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  logo {
+    width: 250px;
+    height: 200px;
+    text-align:left;
+    background-color: white; 
+    margin: 5px 5px 5px 0;
+    display:inline-block;
+}
   
   body {
     min-height: 100vh;
-    background: #81259d;
-    font-family: sans-serif;
+    background: #820AD1;
+    font-family:  'Open Sans', sans-serif;
     display: grid;
     place-items: center;
   }
@@ -39,7 +48,7 @@
   }
   
   label:focus-within {
-    color: #8d3dc8;
+    color: #AB4BEA;
   }
   
   input {
@@ -57,7 +66,7 @@
   
   input:focus {
     outline: none;
-    border-color: #8d3dc8;
+    border-color: #AB4BEA;
   }
   
   button {
@@ -69,7 +78,7 @@
     padding: 1rem 2rem;
     cursor: pointer;
     background: transparent;
-    color: #81259d;
+    color: #820AD1;
     border: 1px solid currentColor;
     border-radius: 4px;
     margin-top: 0.5rem;
@@ -79,13 +88,13 @@
   button:hover,
   button:focus {
     outline: none;
-    background: #8d3dc8;
+    background: #AB4BEA;
     color: #fff;
   }
   
   a {
     text-decoration: none;
-    color: #8d3dc8;
+    color: #AB4BEA;
     font-size: 0.875rem;
     font-weight: 600;
     transition: 0.3s;
@@ -105,4 +114,8 @@
     margin-top: 1.125rem;
   }
   
-  
+  .topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
